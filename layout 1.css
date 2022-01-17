@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{background-color: black;}
+
+.container {
+    min-height: 600px;
+    display: flex;
+}
+
+.Curtain2 {
+	left: 0px;
+	top: -10px;
+	position:fixed;
+
+}
+
+.Curtain3 {
+	right: 0px;
+	top: -10px;
+	position:fixed;
+
+}
+
+.Turntable {
+	left:30%;
+	top: 5%;
+	position:fixed;
+	animation:t1 2s 0s infinite ease-in-out alternate;	
+}
+.Turntable:hover{
+	animation-play-state: paused;/*마우스올리면 정지*/
+	}
+
+@keyframes t1 {
+	0%{transform: rotate(-5deg);}
+	50%{transform: rotate(5deg);}
+	100%{transform: rotate(-5deg);}	
+}
+
+.curtainup{
+	width:100%;
+	position: fixed;
+}
+
+.word{
+    color: white;
+    font-size: 40px;
+	font-family: 'Playfair Display', serif;
+	text-shadow:1px 1px 30px rgb(197, 197, 197),5px 5px 0px rgb(68, 68, 68)
+
+    
+}
