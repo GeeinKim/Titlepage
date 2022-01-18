@@ -29,7 +29,7 @@ body{background-color: black;}
 
 .Turntable {
 	left:30%;
-	top: 5%;
+	top: 15%;
 	position:fixed;
 	animation:t1 2s 0s infinite ease-in-out alternate;	
 }
